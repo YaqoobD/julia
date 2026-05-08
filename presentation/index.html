@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Julia — Sexual Wellness Consultant · Demo Deck</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+
+    <!-- ──────────────────────────────────────────────────────────────
+         SLIDE 1 · Title — "someone's actually listening"
+         ────────────────────────────────────────────────────────────── -->
+    <section class="title-slide">
+      <div class="title-text">
+        <h1 class="hero-julia">
+          Julia
+          <svg class="sparkle" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 2 L13.5 9.5 L21 11 L13.5 12.5 L12 20 L10.5 12.5 L3 11 L10.5 9.5 Z"
+                  fill="currentColor" opacity="0.85"/>
+          </svg>
+        </h1>
+
+        <p class="tagline">She's here. And she's listening.</p>
+      </div>
+
+      <aside class="notes">
+        Holding card while audience settles. Don't read it aloud.
+        Take a breath, smile, then move to slide 2.
+      </aside>
+    </section>
+
+    <!-- ──────────────────────────────────────────────────────────────
+         SLIDE 2 · Some questions don't fit a search box
+         ────────────────────────────────────────────────────────────── -->
+    <section>
+      <header class="brandbar">
+        <div>
+          <div class="bb-name">Why Julia</div>
+          <div class="bb-sub">The conversations that don't happen anywhere</div>
+        </div>
+        <div class="bb-spacer"></div>
+      </header>
+
+      <h2 class="big-head">Some questions deserve <span class="hl">a real conversation.</span></h2>
+
+      <div class="quotes">
+        <div class="q">"I've been getting dry since menopause started, and the lubes I've tried just haven't worked."</div>
+        <div class="q">"How do I bring up trying toys without my partner shutting the conversation down?"</div>
+        <div class="q">"We've been together eight years and I just don't feel anything anymore."</div>
+      </div>
+
+      <p class="punch">That's where Julia comes in.</p>
+
+      <aside class="notes">
+        ~20 seconds.
+
+        Talk track:
+        "People don't type these questions into a search box. They sit on
+        them. They ask a friend. Or they don't ask anyone at all. Julia is
+        for those."
+
+        Don't dwell. The audience reads the three quotes themselves —
+        give them the beat.
+      </aside>
+    </section>
+
+    <!-- ──────────────────────────────────────────────────────────────
+         SLIDE 3 · DEMO cue card — visual cue to switch to the web app
+         ────────────────────────────────────────────────────────────── -->
+    <section class="demo-slide">
+      <p class="demo-word">DEMO</p>
+      <p class="demo-cue">→ over to the app</p>
+
+      <aside class="notes">
+        Stage cue. ~3 seconds on this slide max.
+
+        1. Click forward, slide says DEMO.
+        2. Verbal bridge (slide does the visual work):
+           "Watch how she listens, where she gets her answers from,
+            and how she doesn't try to sell you anything."
+        3. Alt-Tab to Chrome (Julia app at 127.0.0.1:8765). Full-screen.
+        4. Run the demos. Come back to deck → slide 4 (Phone) when done.
+      </aside>
+    </section>
+
+    <!-- ──────────────────────────────────────────────────────────────
+         SLIDE 4 · Phone encore — number on screen, live call on stage
+         ────────────────────────────────────────────────────────────── -->
+    <section class="phone-slide">
+      <p class="phone-preamble">Or call her.</p>
+      <p class="phone-number">+1 (XXX) XXX-XXXX</p>
+      <p class="phone-tagline">She'll pick up. Promise.</p>
+
+      <aside class="notes">
+        ~60 seconds. Phone-encore moment after the web demo.
+
+        Replace the placeholder number with your provisioned Vapi number
+        (set VAPI_ASSISTANT_ID in .env, then provision a phone in the Vapi
+        dashboard).
+
+        Stage flow:
+          1. Click to this slide. Number is now on screen above your head.
+          2. Pull out phone. Dial the number.
+          3. Put phone on speaker so audience hears Julia answer.
+          4. Have a brief conversation — the menopause arc works well here
+             because audience already saw it on web; same engine, different
+             channel is the punchline.
+          5. Hang up, click forward to the close.
+
+        Backup if call fails: point at the number and say "Same engine —
+        the phone takes calls into the same conversation we just demoed.
+        I'll save the dial-tone embarrassment for off-stage." Move on.
+
+        Cost reminder: Vapi spending cap should be set in the dashboard
+        before the demo so post-talk audience calls don't compound.
+      </aside>
+    </section>
+
+    <!-- ──────────────────────────────────────────────────────────────
+         SLIDE 5 · Close — closing line + thanks (post-demo)
+         ────────────────────────────────────────────────────────────── -->
+    <section class="close-slide">
+      <p class="closing-line big">
+        The win? People close the tab feeling <em>heard</em>, not sold to.
+      </p>
+
+      <p class="thanks">Thanks for listening. <span class="thanks-coral">So does Julia.</span></p>
+
+      <aside class="notes">
+        ~15–20 seconds. Closing slide after the demo.
+
+        Read the closing line aloud — "feeling heard, not sold to" is the
+        line and deserves the full beat.
+
+        Then "Thanks for listening — so does Julia" with a small smile.
+        Hold the slide while questions come in.
+      </aside>
+    </section>
+
+  </div>
+
+  <!-- Deck-wide footer. Sits outside .slides so it shows on every slide
+       and isn't subject to reveal.js transform scaling. -->
+  <div class="deck-footer" aria-hidden="true">
+    <span class="df-role">Sexual wellness consultant</span>
+    <span class="df-sep">·</span>
+    <span class="df-name">Yaqoob David</span>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/plugin/notes/notes.min.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: false,
+    controls: true,
+    progress: true,
+    transition: "fade",
+    transitionSpeed: "fast",
+    backgroundTransition: "fade",
+    width: 1280,
+    height: 800,
+    margin: 0.06,
+    minScale: 0.5,
+    maxScale: 1.6,
+    plugins: [ RevealNotes ]
+  });
+</script>
+
+</body>
+</html>

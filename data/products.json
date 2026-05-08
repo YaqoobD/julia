@@ -1,0 +1,282 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Vela Calm Water-Based Lubricant",
+    "price": "£12.00",
+    "category": "lubricant",
+    "use_case_tags": [
+      "menopause",
+      "dryness",
+      "sensitive",
+      "everyday",
+      "partnered",
+      "solo"
+    ],
+    "attributes": [
+      "water-based",
+      "glycerin-free",
+      "ph-matched",
+      "fragrance-free",
+      "paraben-free",
+      "condom-safe",
+      "toy-safe"
+    ],
+    "why_this_one": "A glycerin-free, pH-matched water-based lubricant — gentle for sensitive tissue, useful when other lubes have caused stinging or irritation.",
+    "pdp_url": "https://example.com/products/vela-calm-water-based-lubricant",
+    "image_url": "https://placehold.co/600x800/E8D9CC/3A2E2A?text=Vela+Calm"
+  },
+  {
+    "id": "prod-002",
+    "name": "Vela Silk Silicone Lubricant",
+    "price": "£16.00",
+    "category": "lubricant",
+    "use_case_tags": [
+      "long-lasting",
+      "shower",
+      "partnered",
+      "anal",
+      "sensitive"
+    ],
+    "attributes": [
+      "silicone-based",
+      "long-lasting",
+      "fragrance-free",
+      "condom-safe",
+      "not-toy-safe-silicone"
+    ],
+    "why_this_one": "A long-lasting silicone lubricant — useful when water-based feels too thin, or for use in water. Avoid with silicone toys.",
+    "pdp_url": "https://example.com/products/vela-silk-silicone-lubricant",
+    "image_url": "https://placehold.co/600x800/E8D9CC/3A2E2A?text=Vela+Silk"
+  },
+  {
+    "id": "prod-003",
+    "name": "Vela Renew Vaginal Moisturiser",
+    "price": "£18.00",
+    "category": "moisturiser",
+    "use_case_tags": [
+      "menopause",
+      "dryness",
+      "everyday",
+      "long-term",
+      "sensitive"
+    ],
+    "attributes": [
+      "hormone-free",
+      "fragrance-free",
+      "glycerin-free",
+      "ph-matched",
+      "non-staining"
+    ],
+    "why_this_one": "A long-term vaginal moisturiser used regularly — different from a lube. Helps comfort across the day, not just during sex.",
+    "pdp_url": "https://example.com/products/vela-renew-moisturiser",
+    "image_url": "https://placehold.co/600x800/E8D9CC/3A2E2A?text=Vela+Renew"
+  },
+  {
+    "id": "prod-004",
+    "name": "Vela Petal Clitoral Suction Stimulator",
+    "price": "£35.00",
+    "category": "vibrator",
+    "use_case_tags": [
+      "beginner",
+      "solo",
+      "couples",
+      "intimacy",
+      "low-libido",
+      "introducing-toys"
+    ],
+    "attributes": [
+      "beginner-friendly",
+      "body-safe-silicone",
+      "rechargeable",
+      "waterproof",
+      "quiet"
+    ],
+    "why_this_one": "A gentle clitoral suction toy that's beginner-friendly and quiet — useful for exploring pleasure when libido feels low or touch feels different.",
+    "pdp_url": "https://example.com/products/vela-petal-suction-stimulator",
+    "image_url": "https://placehold.co/600x800/F2D7C2/3A2E2A?text=Vela+Petal"
+  },
+  {
+    "id": "prod-005",
+    "name": "Vela Spark Bullet Vibrator",
+    "price": "£18.00",
+    "category": "vibrator",
+    "use_case_tags": [
+      "beginner",
+      "solo",
+      "couples",
+      "introducing-toys",
+      "discreet"
+    ],
+    "attributes": [
+      "beginner-friendly",
+      "body-safe-silicone",
+      "compact",
+      "multi-function",
+      "rechargeable",
+      "discreet"
+    ],
+    "why_this_one": "A discreet, affordable bullet for external stimulation — good first toy when you want something small and unintimidating.",
+    "pdp_url": "https://example.com/products/vela-spark-bullet",
+    "image_url": "https://placehold.co/600x800/F2D7C2/3A2E2A?text=Vela+Spark"
+  },
+  {
+    "id": "prod-006",
+    "name": "Vela Mini Wand",
+    "price": "£42.00",
+    "category": "vibrator",
+    "use_case_tags": [
+      "beginner",
+      "couples",
+      "intimacy",
+      "solo",
+      "sensitive"
+    ],
+    "attributes": [
+      "rechargeable",
+      "body-safe-silicone",
+      "beginner-friendly",
+      "waterproof",
+      "portable",
+      "quiet"
+    ],
+    "why_this_one": "A compact wand that's less intimidating than full-size versions — gentle enough for sensitive tissue, versatile for solo or partnered use.",
+    "pdp_url": "https://example.com/products/vela-mini-wand",
+    "image_url": "https://placehold.co/600x800/F2D7C2/3A2E2A?text=Vela+Mini+Wand"
+  },
+  {
+    "id": "prod-007",
+    "name": "Vela Loop Couples Vibrating Ring",
+    "price": "£22.00",
+    "category": "couples-toy",
+    "use_case_tags": [
+      "couples",
+      "partnered",
+      "introducing-toys",
+      "beginner",
+      "intimacy"
+    ],
+    "attributes": [
+      "beginner-friendly",
+      "body-safe-silicone",
+      "rechargeable",
+      "stretchy",
+      "shared-use"
+    ],
+    "why_this_one": "A simple shared-use vibrating ring — designed for use during partnered sex, an easy 'first toy together' for couples.",
+    "pdp_url": "https://example.com/products/vela-loop-couples-ring",
+    "image_url": "https://placehold.co/600x800/F2D7C2/3A2E2A?text=Vela+Loop"
+  },
+  {
+    "id": "prod-008",
+    "name": "Vela Glide Hybrid Lubricant",
+    "price": "£14.00",
+    "category": "lubricant",
+    "use_case_tags": [
+      "everyday",
+      "partnered",
+      "sensitive",
+      "long-lasting"
+    ],
+    "attributes": [
+      "hybrid",
+      "ph-matched",
+      "fragrance-free",
+      "glycerin-free",
+      "condom-safe",
+      "toy-safe"
+    ],
+    "why_this_one": "A hybrid water-and-silicone blend — silkier than pure water-based, but gentler on toys than pure silicone.",
+    "pdp_url": "https://example.com/products/vela-glide-hybrid",
+    "image_url": "https://placehold.co/600x800/E8D9CC/3A2E2A?text=Vela+Glide"
+  },
+  {
+    "id": "prod-009",
+    "name": "Vela Hush Quiet Vibrator",
+    "price": "£28.00",
+    "category": "vibrator",
+    "use_case_tags": [
+      "discreet",
+      "beginner",
+      "solo",
+      "shared-living"
+    ],
+    "attributes": [
+      "very-quiet",
+      "rechargeable",
+      "body-safe-silicone",
+      "compact",
+      "waterproof"
+    ],
+    "why_this_one": "Designed to be very quiet — useful when discretion matters, e.g. shared walls or living with family.",
+    "pdp_url": "https://example.com/products/vela-hush-quiet-vibrator",
+    "image_url": "https://placehold.co/600x800/F2D7C2/3A2E2A?text=Vela+Hush"
+  },
+  {
+    "id": "prod-010",
+    "name": "Vela Aqua Aloe-Based Lubricant",
+    "price": "£11.00",
+    "category": "lubricant",
+    "use_case_tags": [
+      "sensitive",
+      "menopause",
+      "dryness",
+      "everyday"
+    ],
+    "attributes": [
+      "water-based",
+      "aloe-based",
+      "glycerin-free",
+      "ph-matched",
+      "fragrance-free",
+      "condom-safe",
+      "toy-safe"
+    ],
+    "why_this_one": "An aloe-based water lubricant — very gentle, useful for users who've reacted to standard formulations.",
+    "pdp_url": "https://example.com/products/vela-aqua-aloe-lubricant",
+    "image_url": "https://placehold.co/600x800/E8D9CC/3A2E2A?text=Vela+Aqua"
+  },
+  {
+    "id": "prod-011",
+    "name": "Vela First Beginner Set",
+    "price": "£40.00",
+    "category": "set",
+    "use_case_tags": [
+      "beginner",
+      "couples",
+      "introducing-toys",
+      "intimacy",
+      "gift"
+    ],
+    "attributes": [
+      "beginner-friendly",
+      "body-safe-silicone",
+      "rechargeable",
+      "set",
+      "couples-friendly"
+    ],
+    "why_this_one": "A small starter set — bullet, ring, and travel pouch — for couples or individuals exploring toys for the first time.",
+    "pdp_url": "https://example.com/products/vela-first-beginner-set",
+    "image_url": "https://placehold.co/600x800/F2D7C2/3A2E2A?text=Vela+First+Set"
+  },
+  {
+    "id": "prod-012",
+    "name": "Vela Restore Pelvic Floor Trainer",
+    "price": "£45.00",
+    "category": "wellness",
+    "use_case_tags": [
+      "postnatal",
+      "menopause",
+      "pelvic-floor",
+      "wellness"
+    ],
+    "attributes": [
+      "body-safe-silicone",
+      "rechargeable",
+      "guided",
+      "biofeedback"
+    ],
+    "why_this_one": "A guided pelvic floor trainer — useful postnatal or alongside menopause for muscle tone and comfort, not a substitute for clinical pelvic-floor physio.",
+    "pdp_url": "https://example.com/products/vela-restore-pelvic-trainer",
+    "image_url": "https://placehold.co/600x800/E8D9CC/3A2E2A?text=Vela+Restore"
+  }
+]

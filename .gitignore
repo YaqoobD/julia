@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.python-version-cache
+
+# Generated artifacts
+data/corpus_index.npz
+data/corpus_index.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Backup recordings (large, don't commit)
+backup-demo.mp4
+*.mov

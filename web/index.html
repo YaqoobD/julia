@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Julia — Sexual Wellness Consultant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-text">
+          <span class="brand-name">Julia</span>
+          <span class="brand-sub">Sexual Wellness Consultant</span>
+        </div>
+      </div>
+      <div class="brand-aside">
+        <span class="ai-badge" title="Conversational AI powered by Claude">
+          <svg class="ai-badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 2v4"/>
+            <path d="M12 18v4"/>
+            <path d="m4.93 4.93 2.83 2.83"/>
+            <path d="m16.24 16.24 2.83 2.83"/>
+            <path d="M2 12h4"/>
+            <path d="M18 12h4"/>
+            <path d="m4.93 19.07 2.83-2.83"/>
+            <path d="m16.24 7.76 2.83-2.83"/>
+          </svg>
+          <span class="ai-badge-text">AI · powered by Claude</span>
+        </span>
+        <button type="button" id="refresh-btn" class="refresh-btn"
+                aria-label="Reset conversation" title="Reset conversation">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+            <path d="M3 3v5h5"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <main class="hero-column">
+      <div class="orb-stage">
+        <div class="ambient-glow" id="ambient-glow" aria-hidden="true"></div>
+        <button type="button" id="stop-speaking-btn" class="voice-orb"
+                aria-label="Julia voice — click to stop while speaking" title="Stop (Esc)">
+          <span class="orb-blob blob-1" aria-hidden="true"></span>
+          <span class="orb-blob blob-2" aria-hidden="true"></span>
+          <span class="orb-blob blob-3" aria-hidden="true"></span>
+          <span class="orb-blob blob-4" aria-hidden="true"></span>
+          <span class="orb-pause" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <rect x="6" y="4" width="4" height="16" rx="1"/>
+              <rect x="14" y="4" width="4" height="16" rx="1"/>
+            </svg>
+          </span>
+          <span class="orb-play" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.6"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="6 3 20 12 6 21 6 3"/>
+            </svg>
+          </span>
+        </button>
+        <div id="orb-status" class="orb-status" aria-live="polite"></div>
+        <button type="button" id="start-btn" class="start-btn">Start conversation</button>
+      </div>
+
+      <section id="product-card-region" class="product-card-region" aria-live="polite"></section>
+      <section id="practitioner-card-region" class="practitioner-card-region" aria-live="polite"></section>
+
+      <form id="composer" class="composer" autocomplete="off">
+        <textarea id="input" name="input" rows="2"
+                  placeholder="Share what's on your mind…"
+                  aria-label="Message Julia"></textarea>
+        <div class="composer-actions">
+          <button type="button" id="mic-btn" class="mic-btn" aria-label="Click to speak"
+                  title="Click to speak; click again to stop">
+            <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="9" y="2" width="6" height="13" rx="3"/>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+              <path d="M12 19v3"/>
+            </svg>
+            <span class="mic-ring" aria-hidden="true"></span>
+            <!-- Live mic waveform — 5 bars driven by an analyser when recording. -->
+            <span class="mic-waveform" id="mic-waveform" aria-hidden="true">
+              <span class="mic-bar"></span>
+              <span class="mic-bar"></span>
+              <span class="mic-bar"></span>
+              <span class="mic-bar"></span>
+              <span class="mic-bar"></span>
+            </span>
+          </button>
+          <button type="submit" id="send-btn" class="send-btn">Send</button>
+        </div>
+        <div class="hints" id="hints">
+          <button type="button" class="hint-chip">I'm dry since menopause and the lubes I've tried haven't worked</button>
+          <button type="button" class="hint-chip">How do I convince my partner to try toys?</button>
+          <button type="button" class="hint-chip">I've been getting pain during sex</button>
+        </div>
+      </form>
+    </main>
+
+    <aside class="side-panels" aria-label="Conversation context">
+      <details class="panel" open id="transcript-panel">
+        <summary class="panel-header">
+          <h2>Transcript</h2>
+          <span class="panel-chevron" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
+          </span>
+        </summary>
+        <div class="panel-body panel-body-tight">
+          <section id="chat" class="chat" aria-live="polite" aria-label="Conversation"></section>
+        </div>
+      </details>
+
+      <details class="panel" open id="references-panel">
+        <summary class="panel-header">
+          <h2>References</h2>
+          <span class="panel-chevron" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
+          </span>
+        </summary>
+        <div class="panel-body">
+          <div class="ref-empty" id="ref-empty">
+            <svg class="ref-empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2-1 0-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+              <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2-1 0-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+            </svg>
+            <p class="ref-empty-text">When Julia cites a source — NHS, Women's Health Concern, or another trusted reference — it'll appear here, linked.</p>
+          </div>
+          <ul id="ref-list" class="ref-list"></ul>
+        </div>
+      </details>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <span class="footer-brand">Julia <span class="footer-dot">·</span> sexual wellness consultant</span>
+    <span class="footer-meta">demo prototype</span>
+  </footer>
+
+  <script src="/chat.js" defer></script>
+</body>
+</html>
