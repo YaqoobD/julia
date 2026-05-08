@@ -7,6 +7,16 @@ This is a demo / portfolio project, not a deployed service. The product catalogu
 is fictional, the practitioner directory is fictional, and the retrieval corpus
 ships empty — you bring your own.
 
+## Screenshots
+
+**Title slide of the demo deck**
+
+<img src="docs/screenshots/title-slide-art.jpg" alt="Julia — title-slide hero art" width="380">
+
+**Web app — live conversation, product surfaced contextually**
+
+![Julia web UI](docs/screenshots/julia-web-ui.png)
+
 ## What it does
 
 - Listens to a user describe a real sexual-wellness concern (menopause,

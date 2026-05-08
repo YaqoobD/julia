@@ -14,6 +14,9 @@ venv/
 data/corpus_index.npz
 data/corpus_index.json
 
+# Scraped corpus content — third-party (NHS, BMS, WHC, etc.). Bring your own.
+data/corpus/*.md
+
 # IDE / OS
 .vscode/
 .idea/

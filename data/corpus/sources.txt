@@ -1,0 +1,63 @@
+# Iris corpus URL list — one URL per line.
+# Lines starting with # are comments. Blank lines OK.
+# The scraper at scripts/fetch_corpus.py turns each URL into data/corpus/<slug>.md.
+
+# --- Slot 1: menopause / dryness / HRT ---
+https://www.nhs.uk/conditions/menopause/symptoms/
+https://www.nhs.uk/conditions/menopause/things-you-can-do/
+https://www.nhs.uk/conditions/menopause/treatment/
+https://www.nhs.uk/conditions/menopause/help-and-support/
+
+https://www.nhs.uk/conditions/early-or-premature-menopause/
+https://www.nhs.uk/contraception/methods-of-contraception/combined-pill/
+https://www.nhs.uk/contraception/methods-of-contraception/combined-pill/what-is-it/
+https://www.nhs.uk/contraception/methods-of-contraception/combined-pill/who-can-take-it/
+https://www.nhs.uk/contraception/methods-of-contraception/combined-pill/how-to-take-it/
+https://www.nhs.uk/contraception/methods-of-contraception/combined-pill/side-effects/
+https://www.nhs.uk/contraception/methods-of-contraception/combined-pill/missed-or-extra-pill/
+https://www.nhs.uk/contraception/methods-of-contraception/combined-pill/sickness-or-diarrhoea/
+https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/about-hormone-replacement-therapy-hrt/
+https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/types-of-hormone-replacement-therapy-hrt/
+https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/benefits-and-risks-of-hormone-replacement-therapy-hrt/
+https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/side-effects-of-hormone-replacement-therapy-hrt/
+https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/when-to-take-hormone-replacement-therapy-hrt/
+https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/alternatives-to-hormone-replacement-therapy-hrt/
+https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/alternatives-to-hormone-replacement-therapy-hrt/lifestyle-changes-to-make-if-youre-unable-to-take-hrt/
+https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/alternatives-to-hormone-replacement-therapy-hrt/other-medicines-for-menopause-symptoms/
+https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/alternatives-to-hormone-replacement-therapy-hrt/herbal-remedies-and-complementary-medicines-for-menopause-symptoms/
+
+https://www.nhs.uk/symptoms/vaginal-dryness/
+https://www.nhs.uk/conditions/urinary-tract-infections-utis/
+https://www.nhs.uk/symptoms/blood-in-urine/
+https://www.nhs.uk/conditions/diabetes/
+https://www.nhs.uk/conditions/sjogrens-syndrome/
+
+https://www.nhs.uk/symptoms/priapism-painful-erections/
+https://www.nhs.uk/symptoms/loss-of-libido/
+https://www.nhs.uk/mental-health/conditions/depression-in-adults/overview/
+https://www.nhs.uk/conditions/erection-problems-erectile-dysfunction/
+https://www.nhs.uk/conditions/high-blood-pressure/
+https://www.nhs.uk/medicines/antidepressants/
+https://www.nhs.uk/contraception/methods-of-contraception/
+https://www.nhs.uk/contraception/emergency-contraception/
+https://www.nhs.uk/live-well/sexual-health/confidentiality-at-sexual-health-services/
+https://www.nhs.uk/live-well/sexual-health/where-can-i-get-sexual-health-advice-now/
+https://www.nhs.uk/live-well/sexual-health/visiting-an-sti-clinic/
+https://www.nhs.uk/live-well/sexual-health/sexual-health-for-gay-and-bisexual-men/
+https://www.nhs.uk/live-well/sexual-health/sexual-health-for-lesbian-and-bisexual-women/
+https://www.nhs.uk/live-well/sexual-health/sex-activities-and-risk/
+https://www.nhs.uk/live-well/sexual-health/help-after-rape-and-sexual-assault/
+
+https://www.womens-health-concern.org/
+
+https://thebms.org.uk/publications/bms-vision/
+https://www.womens-health-concern.org/help-and-advice/factsheets/
+# PDF factsheets removed: trafilatura is HTML-only. Revisit with a PDF handler if needed.
+
+
+
+# --- Slot 2: couples / introducing toys / communication ---
+# (add Lovehoney advice URLs here)
+
+# --- General intimate wellness ---
+# (add a few generic-purpose URLs here)
