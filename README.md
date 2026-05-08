@@ -11,7 +11,7 @@ ships empty — you bring your own.
 
 **Title slide of the demo deck**
 
-<img src="docs/screenshots/title-slide-art.jpg" alt="Julia — title-slide hero art" width="380">
+![Julia — title slide](docs/screenshots/title-slide.png)
 
 **Web app — live conversation, product surfaced contextually**
 
